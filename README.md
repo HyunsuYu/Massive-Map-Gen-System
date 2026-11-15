@@ -4,6 +4,8 @@
 
 Korea Multimedia Society Fall Conference 2026 · Hyun-su Yu, Jeong-guk Koh (Tongmyong University)
 
+**[Read the paper (PDF)](https://hyunsuyu.github.io/assets/papers/MapGenPaper.pdf)**
+
 ![Generated tilemap: in-engine render and raw agent output](assets/hero_render_vs_raw.png)
 
 *A generated tilemap: in-engine render (left) and the agent's raw 2-channel PNG output (right).*
@@ -60,6 +62,9 @@ Functor/Agent/BasicMapGenAgent.cs   generation (Abstract/Room/Tile, gates, paral
 Functor/Buffer/...InputBuffer.cs    input parameter buffer
 Functor/Utils/RandUtil.cs           RNG helpers
 ```
+
+## Paper
+Hyun-su Yu, Jeong-guk Koh, "A Hierarchical Random-Walk Algorithm for Large-Scale Tilemap Generation and Execution Strategies for Host Responsiveness," Proceedings of the Korea Multimedia Society Fall Conference, Vol. 29, No. 2, 2026. [PDF](https://hyunsuyu.github.io/assets/papers/MapGenPaper.pdf)
 
 ## License
 See [LICENSE](LICENSE).
